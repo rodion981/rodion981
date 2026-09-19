@@ -1,236 +1,166 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:07111F,45:0366D6,100:41BDF5&text=Rodion&fontColor=FFFFFF&fontSize=55&fontAlignY=37&desc=HOME%20ASSISTANT%20%E2%80%A2%20AUTOMATION%20%E2%80%A2%20ENERGY%20%E2%80%A2%20IoT&descAlignY=58&descSize=17" />
+<img src="https://github.com/rodion981.png" width="120" style="border-radius:50%" />
 
-### 🏠 Building useful Home Assistant integrations for real-world smart homes
+# Rodion
 
-`Home Assistant` · `Smart Home` · `IoT` · `Energy` · `Self-hosted` · `Python`
+### Home Assistant · Smart Home · IoT · Homelab
 
-<br>
+I build practical Home Assistant integrations, automation tools
+and self-hosted infrastructure for real-world smart homes.
 
 [![Home Assistant](https://img.shields.io/badge/Home_Assistant-41BDF5?style=flat-square\&logo=home-assistant\&logoColor=white)](https://www.home-assistant.io/)
-[![GitHub followers](https://img.shields.io/github/followers/rodion981?style=flat-square\&logo=github)](https://github.com/rodion981)
-![Profile Views](https://komarev.com/ghpvc/?username=rodion981\&style=flat-square\&color=41BDF5)
+[![Ukraine](https://img.shields.io/badge/Ukraine-0057B7?style=flat-square\&labelColor=FFD700)](#)
+[![Profile Views](https://komarev.com/ghpvc/?username=rodion981\&style=flat-square\&color=41BDF5)](https://github.com/rodion981)
 
 </div>
 
----
+<br>
 
-## ⚡ What I Build
+## Selected work
 
-I build tools and integrations around **Home Assistant**, smart-home infrastructure and automation.
-
-My main interests are:
-
-* 🧩 Home Assistant custom integrations
-* ⚡ Energy monitoring and power resilience
-* 📡 Device and infrastructure monitoring
-* 🏠 Smart-home automation
-* 🔌 Zigbee, MQTT and IoT
-* 🐳 Docker and self-hosted services
-* 🖥️ Proxmox homelab infrastructure
-
----
-
-# 🚀 Featured Projects
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### 🛡️ [HA Auditor](https://github.com/rodion981/ha-auditor)
 
-**Understand HACS updates before you install them.**
+Know what changed **before updating HACS integrations**.
 
-Home Assistant integration that audits GitHub releases for installed HACS integrations, highlights important changes and keeps actionable findings inside Home Assistant.
+Release analysis, persistent findings, update classification and Home Assistant-native notifications.
 
-[![Stars](https://img.shields.io/github/stars/rodion981/ha-auditor?style=flat-square)](https://github.com/rodion981/ha-auditor/stargazers)
-![Python](https://img.shields.io/github/languages/top/rodion981/ha-auditor?style=flat-square)
-[![License](https://img.shields.io/github/license/rodion981/ha-auditor?style=flat-square)](https://github.com/rodion981/ha-auditor)
+</td>
 
----
+<td width="50%" valign="top">
 
-### ⚡ [HA Energy Outages](https://github.com/rodion981/ha-energy-outages)
+### ⚡ [Energy Outages](https://github.com/rodion981/ha-energy-outages)
 
-Power outage schedules directly inside Home Assistant.
+Power outage schedules inside Home Assistant.
 
-Provides today's and tomorrow's outage periods, 30-minute precision and a binary sensor showing whether an outage is active right now.
+Today/tomorrow schedules, 30-minute intervals and current outage state.
 
-[![Stars](https://img.shields.io/github/stars/rodion981/ha-energy-outages?style=flat-square)](https://github.com/rodion981/ha-energy-outages/stargazers)
-[![Release](https://img.shields.io/github/v/release/rodion981/ha-energy-outages?style=flat-square)](https://github.com/rodion981/ha-energy-outages/releases)
-![HACS](https://img.shields.io/badge/HACS-Custom-41BDF5?style=flat-square)
+</td>
+</tr>
 
----
+<tr>
+<td width="50%" valign="top">
 
 ### 📡 [Object Event Monitor](https://github.com/rodion981/ha-object-monitor)
 
-Event-driven monitoring for homes, offices, restaurants and other remote locations.
+Event-driven monitoring for multiple locations.
 
-Uses Home Assistant labels to detect availability, recovery, security and state changes and exposes them as automation-friendly events.
+Availability, recovery, security and entity state monitoring using Home Assistant labels.
 
-[![Stars](https://img.shields.io/github/stars/rodion981/ha-object-monitor?style=flat-square)](https://github.com/rodion981/ha-object-monitor/stargazers)
-![Python](https://img.shields.io/github/languages/top/rodion981/ha-object-monitor?style=flat-square)
+</td>
 
----
+<td width="50%" valign="top">
 
-### 💳 [Monobank for Home Assistant](https://github.com/rodion981/ha-monobank)
+### 💳 [Monobank](https://github.com/rodion981/ha-monobank)
 
-Bring Monobank data into Home Assistant.
+Monobank inside Home Assistant.
 
-Account balances, jars, exchange rates, webhook updates, API status and configurable update intervals.
+Accounts, jars, exchange rates, API health and transaction webhooks.
 
-[![Stars](https://img.shields.io/github/stars/rodion981/ha-monobank?style=flat-square)](https://github.com/rodion981/ha-monobank/stargazers)
-![Python](https://img.shields.io/github/languages/top/rodion981/ha-monobank?style=flat-square)
+</td>
+</tr>
+</table>
 
----
+<br>
 
-### 🔋 [EcoFlow Delta 2](https://github.com/rodion981/ecoflow-delta2-homeassistant)
+<div align="center">
 
-Custom Home Assistant integration for monitoring and controlling an **EcoFlow Delta 2** through the official EcoFlow API.
+<a href="https://github.com/rodion981/ha-auditor">
+<img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=rodion981&repo=ha-auditor&theme=github_dark&hide_border=true" />
+</a>
+<a href="https://github.com/rodion981/ha-energy-outages">
+<img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=rodion981&repo=ha-energy-outages&theme=github_dark&hide_border=true" />
+</a>
 
----
+</div>
 
-# 🧠 About Me
+## Smart Home Lab
+
+```text
+┌─────────────────────────────────────────────────────┐
+│                  HOME ASSISTANT                     │
+├─────────────────┬─────────────────┬─────────────────┤
+│   MONITORING    │     ENERGY      │     DEVICES     │
+│                 │                 │                 │
+│  HA Auditor     │ Energy Outages  │ Zigbee          │
+│  Object Monitor │ EcoFlow Delta 2 │ MQTT            │
+│                 │                 │ IoT Devices     │
+├─────────────────┴─────────────────┴─────────────────┤
+│                   HOMELAB                           │
+│       Proxmox · Docker · Linux · Self-hosted        │
+└─────────────────────────────────────────────────────┘
+```
+
+## Stack
 
 ```yaml
-name: Rodion
-
-focus:
-  - Home Assistant
-  - Smart Home & IoT
-  - Automation
-  - Energy Monitoring
-  - Self-hosted Infrastructure
-
-home_automation:
-  - Home Assistant
+home_assistant:
+  - Custom Integrations
   - HACS
+  - Automations
   - Zigbee
   - MQTT
-  - YAML
 
-infrastructure:
+development:
+  - Python
+  - YAML
+  - PowerShell
+  - GitHub Actions
+
+homelab:
   - Proxmox
   - Docker
   - Linux
   - Self-hosted services
 
-development:
-  - Python
-  - PowerShell
-  - Git
-  - GitHub Actions
-
-currently_building:
-  - HA Auditor
-  - Object Event Monitor
-  - Energy integrations
-  - Smart-home utilities
-
-philosophy:
-  "If something can be monitored or automated, it probably should be."
+interests:
+  - Energy monitoring
+  - Infrastructure monitoring
+  - Smart home resilience
+  - Local automation
 ```
 
----
+## More projects
 
-# 🗺️ Smart Home Ecosystem
-
-```mermaid
-flowchart TB
-
-    HA["🏠 HOME ASSISTANT"]
-
-    HA --> MON["📡 Monitoring"]
-    HA --> ENERGY["⚡ Energy"]
-    HA --> DEVICES["🔌 Devices"]
-    HA --> INFRA["🖥️ Infrastructure"]
-
-    MON --> AUDITOR["HA Auditor"]
-    MON --> OBJECT["Object Event Monitor"]
-
-    ENERGY --> OUTAGES["Energy Outages"]
-    ENERGY --> ECOFLOW["EcoFlow Delta 2"]
-
-    DEVICES --> ZIGBEE["Zigbee"]
-    DEVICES --> MQTT["MQTT"]
-
-    INFRA --> DOCKER["Docker"]
-    INFRA --> PROXMOX["Proxmox"]
-```
-
----
-
-# 🛠️ Tech Stack
-
-<div align="center">
-
-![Home Assistant](https://img.shields.io/badge/Home_Assistant-41BDF5?style=for-the-badge\&logo=home-assistant\&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-![YAML](https://img.shields.io/badge/YAML-CB171E?style=for-the-badge\&logo=yaml\&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
-![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge\&logo=proxmox\&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge\&logo=mqtt\&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge\&logo=github-actions\&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge\&logo=powershell\&logoColor=white)
-
-</div>
-
----
+`🔋 EcoFlow Delta 2` · `🌩️ Blitzortung` · `🇺🇦 UkrHMC` · `⚡ Power Flow Card` · `🌘 Lunar Phase`
 
 <details>
-
-<summary><b>🌍 Community work & maintained forks</b></summary>
+<summary><b>Community work & maintained forks</b></summary>
 
 <br>
 
-I also experiment with and maintain changes to existing Home Assistant projects.
-
-* ⚠️ [ha-aerial-danger](https://github.com/rodion981/ha-aerial-danger)
-* 🌩️ [homeassistant-blitzortung](https://github.com/rodion981/homeassistant-blitzortung)
-* 🇺🇦 [ha-ukr-hmc](https://github.com/rodion981/ha-ukr-hmc)
-* ⚡ [power-flow-card-plus](https://github.com/rodion981/power-flow-card-plus)
-* 🌘 [lunar-phase-card](https://github.com/rodion981/lunar-phase-card)
-* 🌩️ [lovelace-blitzortung-lightning-card](https://github.com/rodion981/lovelace-blitzortung-lightning-card)
+* [ha-aerial-danger](https://github.com/rodion981/ha-aerial-danger)
+* [homeassistant-blitzortung](https://github.com/rodion981/homeassistant-blitzortung)
+* [ha-ukr-hmc](https://github.com/rodion981/ha-ukr-hmc)
+* [power-flow-card-plus](https://github.com/rodion981/power-flow-card-plus)
+* [lunar-phase-card](https://github.com/rodion981/lunar-phase-card)
+* [lovelace-blitzortung-lightning-card](https://github.com/rodion981/lovelace-blitzortung-lightning-card)
 
 </details>
 
----
-
-# 📊 GitHub
+## Activity
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=rodion981&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=rodion981&show_icons=true&theme=github_dark&hide_border=true&hide_title=true" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=rodion981&theme=github-dark-blue&hide_border=true" />
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rodion981&layout=compact&theme=github_dark&hide_border=true" />
+</div>
+
+## Contact
+
+<div align="center">
+
+[LinkedIn](https://linkedin.com/in/rodion-kurylenko-3924b82a9) ·
+[Reddit](https://reddit.com/user/rodyon009) ·
+[PayPal](https://paypal.me/rodyon009)
 
 <br><br>
 
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=rodion981&theme=github-compact&hide_border=true&area=true" />
+<sub>Home Assistant enthusiast · automation addict · homelab tinkerer</sub>
 
 </div>
-
----
-
-# 🌐 Connect
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rodion_Kurylenko-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://linkedin.com/in/rodion-kurylenko-3924b82a9)
-
-[![Reddit](https://img.shields.io/badge/Reddit-rodyon009-FF4500?style=for-the-badge\&logo=reddit\&logoColor=white)](https://reddit.com/user/rodyon009)
-
-<br>
-
-[![PayPal](https://img.shields.io/badge/Support-PayPal-00457C?style=flat-square\&logo=paypal\&logoColor=white)](https://paypal.me/rodyon009)
-
-</div>
-
-<br>
-
-<div align="center">
-
-### 🏠 Automate everything.
-
-<sub>Making homes a little smarter, one integration at a time.</sub>
-
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:07111F,50:0366D6,100:41BDF5" />
