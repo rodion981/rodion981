@@ -1,153 +1,111 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:020617,45:0E7490,100:38BDF8&text=RODION%20TECH&fontColor=F8FAFC&fontSize=56&fontAlignY=38&desc=SMART%20HOME%20%E2%80%A2%20AUTOMATION%20%E2%80%A2%20SELF-HOSTED%20INFRASTRUCTURE&descAlignY=60&descSize=17&animation=fadeIn" />
+<img src="./assets/control-center.svg" alt="Rodion TECH: Smart Home Control Center. Home Assistant, energy, monitoring and infrastructure." width="100%">
 
-### Building practical systems for a smarter, more resilient home.
+<p><strong>I build Home Assistant integrations that make real systems easier to observe, understand and operate.</strong></p>
 
-[![Home Assistant](https://img.shields.io/badge/Home_Assistant-38BDF8?style=for-the-badge&logo=home-assistant&logoColor=white)](https://www.home-assistant.io/)
-[![Python](https://img.shields.io/badge/Python-0EA5E9?style=for-the-badge&logo=python&logoColor=white)](#)
-[![Docker](https://img.shields.io/badge/Docker-0EA5E9?style=for-the-badge&logo=docker&logoColor=white)](#)
-[![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)](#)
+<p>Smart home engineering · Energy resilience · Infrastructure monitoring · Open source</p>
 
-<sub>HOME ASSISTANT · ENERGY · IoT · HOMELAB · AUTOMATION</sub>
+<p><a href="#featured-systems">Explore projects</a> · <a href="#how-it-fits-together">See the system</a> · <a href="#connect">Get in touch</a></p>
 
 </div>
 
-<br>
+## The mission
+
+I'm Rodion, an engineer in Ukraine working where Home Assistant meets physical devices, energy systems and self-hosted infrastructure. I build tools that turn updates, outages, device events and network state into information people can actually use.
+
+My work favors clear states, useful diagnostics and honest handling of missing data. If a system cannot tell you what it knows, it is hard to trust when it matters.
+
+## Featured systems
 
 <table>
-<tr>
-<td width="50%" valign="top">
-
-### 👋 About
-
-I build open-source Home Assistant integrations and local-first infrastructure for homes that are easier to observe, automate and maintain.
-
-My work connects devices, data and services into systems that solve real everyday problems: energy resilience, device monitoring, alerts and reliable automation.
-
-</td>
-<td width="50%" valign="top">
-
-### 🎯 Current focus
-
-- Home Assistant integrations with a clean native UX
-- Energy monitoring and outage resilience
-- MQTT, Zigbee and event-driven automation
-- Proxmox, Docker and self-hosted services
-- Practical tools for the Ukrainian HA community
-
-</td>
-</tr>
+  <tr>
+    <td width="50%" valign="top">
+      <sub>01 / UPDATE INTELLIGENCE</sub><br>
+      <h3><a href="https://github.com/rodion981/ha-auditor">🛡️ HA Auditor</a></h3>
+      <p>Understand HACS updates before installing them. Reads release notes, highlights meaningful changes and reports when an audit is incomplete.</p>
+      <a href="https://github.com/rodion981/ha-auditor">Explore the integration ↗</a>
+    </td>
+    <td width="50%" valign="top">
+      <sub>02 / ENERGY RESILIENCE</sub><br>
+      <h3><a href="https://github.com/rodion981/ha-energy-outages">⚡ Energy Outages</a></h3>
+      <p>Bring Kyiv outage schedules into Home Assistant, with today and tomorrow's periods and an “outage now” binary sensor.</p>
+      <a href="https://github.com/rodion981/ha-energy-outages">Explore the integration ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <sub>03 / OBJECT OBSERVABILITY</sub><br>
+      <h3><a href="https://github.com/rodion981/ha-object-monitor">📡 Object Event Monitor</a></h3>
+      <p>Turn label-selected entity changes into Home Assistant events for availability, recovery and other multi-site automations.</p>
+      <a href="https://github.com/rodion981/ha-object-monitor">Explore the integration ↗</a>
+    </td>
+    <td width="50%" valign="top">
+      <sub>04 / NETWORK VISIBILITY</sub><br>
+      <h3><a href="https://github.com/rodion981/ha-netbird">🌐 NetBird for Home Assistant</a></h3>
+      <p>Read-only monitoring of NetBird Cloud peers and current network topology. Connection state is not a VPN path test.</p>
+      <a href="https://github.com/rodion981/ha-netbird">Explore the integration ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <sub>05 / FINANCIAL DATA</sub><br>
+      <h3><a href="https://github.com/rodion981/ha-monobank">💳 Monobank</a></h3>
+      <p>Bring account balances, jars, exchange rates and API status into Home Assistant, with webhook updates for transactions.</p>
+      <a href="https://github.com/rodion981/ha-monobank">Explore the integration ↗</a>
+    </td>
+    <td width="50%" valign="top">
+      <sub>06 / ENERGY HARDWARE · ARCHIVED</sub><br>
+      <h3><a href="https://github.com/rodion981/ecoflow-delta2-homeassistant">🔋 EcoFlow Delta 2</a></h3>
+      <p>Earlier Home Assistant integration for monitoring and controlling an EcoFlow Delta 2 through the official API.</p>
+      <a href="https://github.com/rodion981/ecoflow-delta2-homeassistant">View archived project ↗</a>
+    </td>
+  </tr>
 </table>
 
-## ⚡ Featured Builds
+## How it fits together
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
+  <img src="./assets/system-map.svg" alt="Portfolio map: six project areas around Home Assistant, covering updates, outage schedules, object events, NetBird Cloud, Monobank and EcoFlow." width="100%">
+</div>
 
-### 🛡️ [HA Auditor](https://github.com/rodion981/ha-auditor)
+These projects share a practical goal: bring signals from different parts of a home or homelab into a place where they can be inspected and used. Each integration stands on its own; the map shows the areas I work on, not a required deployment architecture.
 
-**Understand HACS updates before you install them.**
+## Engineering principles
 
-Analyze releases for installed HACS integrations and surface breaking changes, important fixes and useful features directly in Home Assistant.
+| Principle | What it means in practice |
+| --- | --- |
+| **Observe before acting** | Expose useful state and diagnostics so failures are easier to trace. |
+| **Show uncertainty** | Treat unavailable, incomplete and stale data differently from a real zero or `off`. |
+| **Design for disruption** | Make energy and network conditions visible to the people operating the system. |
+| **Keep it maintainable** | Prefer small, documented integrations that fit Home Assistant conventions. |
 
-</td>
-<td width="50%" valign="top">
+## Tools I work with
 
-### ⚡ [Energy Outages](https://github.com/rodion981/ha-energy-outages)
+`Home Assistant` · `Python` · `YAML` · `PowerShell` · `Zigbee` · `MQTT` · `Proxmox` · `Docker` · `Linux` · `GitHub Actions`
 
-**Power-outage schedules, where they belong.**
+<details>
+<summary>Community work and maintained forks</summary>
 
-Today and tomorrow schedules, 30-minute precision and a clear sensor for the current outage state.
+- [ha-aerial-danger](https://github.com/rodion981/ha-aerial-danger)
+- [homeassistant-blitzortung](https://github.com/rodion981/homeassistant-blitzortung)
+- [ha-ukr-hmc](https://github.com/rodion981/ha-ukr-hmc)
+- [power-flow-card-plus](https://github.com/rodion981/power-flow-card-plus)
+- [lunar-phase-card](https://github.com/rodion981/lunar-phase-card)
+- [lovelace-blitzortung-lightning-card](https://github.com/rodion981/lovelace-blitzortung-lightning-card)
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+</details>
 
-### 📡 [Object Event Monitor](https://github.com/rodion981/ha-object-monitor)
+## Connect
 
-**Event-driven monitoring for every location.**
-
-Track availability, recovery, security and entity-state changes using native Home Assistant labels.
-
-</td>
-<td width="50%" valign="top">
-
-### 💳 [Monobank](https://github.com/rodion981/ha-monobank)
-
-**Financial data as native Home Assistant entities.**
-
-Accounts, jars, exchange rates, API status and webhook updates in one integration.
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-### 🔋 [EcoFlow Delta 2 for Home Assistant](https://github.com/rodion981/ecoflow-delta2-homeassistant)
-
-**Power-station monitoring and control through the official EcoFlow API.**
-
-</td>
-</tr>
-</table>
-
-## 🧩 Built around
-
-<p>
-  <img src="https://img.shields.io/badge/Home%20Assistant-0F172A?style=flat-square&logo=home-assistant&logoColor=38BDF8" />
-  <img src="https://img.shields.io/badge/Python-0F172A?style=flat-square&logo=python&logoColor=38BDF8" />
-  <img src="https://img.shields.io/badge/YAML-0F172A?style=flat-square&logo=yaml&logoColor=38BDF8" />
-  <img src="https://img.shields.io/badge/PowerShell-0F172A?style=flat-square&logo=powershell&logoColor=38BDF8" />
-  <img src="https://img.shields.io/badge/Docker-0F172A?style=flat-square&logo=docker&logoColor=38BDF8" />
-  <img src="https://img.shields.io/badge/Proxmox-0F172A?style=flat-square&logo=proxmox&logoColor=E57000" />
-  <img src="https://img.shields.io/badge/Linux-0F172A?style=flat-square&logo=linux&logoColor=FACC15" />
-  <img src="https://img.shields.io/badge/MQTT-0F172A?style=flat-square&logo=mqtt&logoColor=A855F7" />
-  <img src="https://img.shields.io/badge/Zigbee-0F172A?style=flat-square&logo=zigbee&logoColor=FACC15" />
-</p>
-
-## 🧭 Engineering principles
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-**Local-first**
-
-Keep essential systems understandable and under your control.
-
-</td>
-<td width="33%" valign="top">
-
-**Automation with intent**
-
-Automate repeatable work, but make failure states visible.
-
-</td>
-<td width="33%" valign="top">
-
-**Evidence before change**
-
-Diagnose, change minimally, verify the real result.
-
-</td>
-</tr>
-</table>
-
-## 🌍 Open source & community
-
-I contribute practical integrations, Ukrainian localization and documentation to the Home Assistant ecosystem. I care about tools that work outside a demo: clear setup, predictable behavior and useful diagnostics.
+Find me on [LinkedIn](https://www.linkedin.com/in/rodion-kurylenko-tech/) or [Reddit](https://reddit.com/user/rodyon009). If you find an issue in one of my projects, the repository's issue tracker is the best place to report it.
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=rodion981&style=flat-square&color=0EA5E9&label=PROFILE+VIEWS" />
+**RODION TECH // SMART HOME CONTROL CENTER**
 
-<br><br>
+<sub>Build it. Observe it. Automate it. · 🇺🇦 Built in Ukraine</sub>
 
-**RODION TECH** &nbsp;·&nbsp; *Build it. Monitor it. Automate it.*
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:020617,45:0E7490,100:38BDF8" />
+[Support my work](https://paypal.me/rodyon009)
 
 </div>
