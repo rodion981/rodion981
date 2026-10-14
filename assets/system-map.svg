@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
   <title id="title">Rodion TECH portfolio map</title>
-  <desc id="desc">Six project areas connect around Home Assistant: update intelligence, energy outages, object events, NetBird Cloud, Monobank and archived EcoFlow work.</desc>
+  <desc id="desc">Six project areas connect around Home Assistant: update intelligence, Ukrainian outage forecasts, object events, NetBird monitoring, Monobank and archived EcoFlow work.</desc>
   <defs>
     <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071421"/><stop offset="1" stop-color="#0c2939"/></linearGradient>
     <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#9fe9ff" opacity=".12"/></pattern>
@@ -22,7 +22,7 @@
     <rect x="52" y="203" width="344" height="94" rx="14" fill="#102e42" stroke="#3b7895"/>
     <circle cx="76" cy="249" r="5" fill="#ffc775"/>
     <text x="95" y="237" fill="#e5f7ff" font-size="20" font-weight="700">Energy Outages</text>
-    <text x="95" y="265" fill="#98bccc" font-size="14">Power schedule signals</text>
+    <text x="95" y="265" fill="#98bccc" font-size="14">Schedules · forecasts · data health</text>
     <rect x="52" y="307" width="344" height="94" rx="14" fill="#102e42" stroke="#3b7895"/>
     <circle cx="76" cy="353" r="5" fill="#79e6bb"/>
     <text x="95" y="341" fill="#e5f7ff" font-size="20" font-weight="700">Object Monitor</text>
@@ -30,7 +30,7 @@
     <rect x="804" y="99" width="344" height="94" rx="14" fill="#102e42" stroke="#3b7895"/>
     <circle cx="828" cy="145" r="5" fill="#69e1fb"/>
     <text x="847" y="133" fill="#e5f7ff" font-size="20" font-weight="700">NetBird</text>
-    <text x="847" y="161" fill="#98bccc" font-size="14">Cloud peer and network state</text>
+    <text x="847" y="161" fill="#98bccc" font-size="14">Peer and network visibility</text>
     <rect x="804" y="203" width="344" height="94" rx="14" fill="#102e42" stroke="#3b7895"/>
     <circle cx="828" cy="249" r="5" fill="#c8a2ff"/>
     <text x="847" y="237" fill="#e5f7ff" font-size="20" font-weight="700">Monobank</text>

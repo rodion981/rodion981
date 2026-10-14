@@ -29,7 +29,7 @@ My work favors clear states, useful diagnostics and honest handling of missing d
     <td width="50%" valign="top">
       <sub>02 / ENERGY RESILIENCE</sub><br>
       <h3><a href="https://github.com/rodion981/ha-energy-outages">⚡ Energy Outages</a></h3>
-      <p>Bring Kyiv outage schedules into Home Assistant, with today and tomorrow's periods and an “outage now” binary sensor.</p>
+      <p>See published Ukrainian power-outage schedules by region, operator and exact queue. Track today's and tomorrow's periods, the next outage, expected restoration and data status.</p>
       <a href="https://github.com/rodion981/ha-energy-outages">Explore the integration ↗</a>
     </td>
   </tr>
@@ -43,7 +43,7 @@ My work favors clear states, useful diagnostics and honest handling of missing d
     <td width="50%" valign="top">
       <sub>04 / NETWORK VISIBILITY</sub><br>
       <h3><a href="https://github.com/rodion981/ha-netbird">🌐 NetBird for Home Assistant</a></h3>
-      <p>Read-only monitoring of NetBird Cloud peers and current network topology. Connection state is not a VPN path test.</p>
+      <p>Read-only monitoring of Cloud or self-hosted NetBird peers, Networks, Resources and Routers. A connected peer does not prove end-to-end VPN reachability.</p>
       <a href="https://github.com/rodion981/ha-netbird">Explore the integration ↗</a>
     </td>
   </tr>
@@ -66,7 +66,7 @@ My work favors clear states, useful diagnostics and honest handling of missing d
 ## How it fits together
 
 <div align="center">
-  <img src="./assets/system-map.svg" alt="Portfolio map: six project areas around Home Assistant, covering updates, outage schedules, object events, NetBird Cloud, Monobank and EcoFlow." width="100%">
+  <img src="./assets/system-map.svg" alt="Portfolio map: six project areas around Home Assistant, covering updates, Ukrainian outage schedules, object events, NetBird networks, Monobank and EcoFlow." width="100%">
 </div>
 
 These projects share a practical goal: bring signals from different parts of a home or homelab into a place where they can be inspected and used. Each integration stands on its own; the map shows the areas I work on, not a required deployment architecture.
